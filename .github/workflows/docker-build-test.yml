@@ -2,13 +2,10 @@ name: docker
 
 on:
   push:
-    branches: [ "main" ]
-
-  pull_request:
-    branches: [ "main" ]
-
-  tags:
-    - "v*" # Déclenchement sur les tags Git qui commencent par "v"
+    branches:
+      - "main"
+    tags:
+      - "v*" # Déclenchement sur les tags Git qui commencent par "v"
 
 
 jobs:
